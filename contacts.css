@@ -1,0 +1,19 @@
+.contacts_info{
+    font-family: var(--main-font);
+    font-size: 3.25rem;
+    animation: start 2s ease ;
+}
+
+.info_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 53px;
+}
+
+.about_wrap{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}

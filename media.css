@@ -1,0 +1,104 @@
+@media (max-width: 700px){
+    .navbar{
+        display: none;
+        transition: all 0.5s ease;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .wrap_cards{
+        gap: 8px;
+    }
+    .container{
+        position: relative;
+    }
+    .card{
+        width: 100%;
+    }
+    .main{
+        height: 100vh;
+        overflow-x: hidden;
+
+    }   
+    .title_about{
+        font-size: clamp(2.25rem, -4.568rem + 29.09vw, 3.25rem);
+        margin-top: 0;
+    }
+    .portfolio_button{
+        padding: 4px 24px;
+    }
+    .about_wrap{
+        padding-inline: 32px;
+    }
+    .p_about{
+        font-size: clamp(1rem, -5.818rem + 29.09vw, 2rem);
+    }
+    .nave{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(214, 151, 211);
+        width: 100%;
+        gap: 24px;
+        align-items: center;
+        padding-bottom: 24px;
+        padding-top: 20px;
+        z-index: 2;
+    }
+    .nave .navlink{
+        font-size: 32px;
+    } 
+
+    .nave .navlink::after{
+        display: none;
+    }
+    .burger_wrap{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 32px;
+        padding-top: 24px;
+    }
+    .burder{
+        display: block;
+        width: clamp(2rem, -4.818rem + 29.09vw, 3rem);
+        margin-bottom: 32px;
+        z-index: 2;
+        
+    }
+    .c_wrap{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-inline: 32px;
+        align-items: baseline;
+        height: auto;
+    }
+    .title{
+        font-size: clamp(3rem, -3.818rem + 29.09vw, 4rem);
+    }
+    h2{
+        font-size: clamp(1.5rem, -5.318rem + 29.09vw, 2.5rem);
+    }
+    h2, h3{
+        margin-top: 8px;
+    }
+    h3{
+        font-size: clamp(1rem, -3.773rem + 20.36vw, 1.7rem);
+    }
+    .sticker{
+        width: clamp(3.5rem, -15.25rem + 80vw, 6.25rem);
+    }
+    .main_photo{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contacts_info{
+        font-size: clamp(1.25rem, -1.818rem + 13.09vw, 1.7rem);
+    }
+    aside{
+        display: none;
+    }
+    .back{
+        margin-bottom: 16px;
+    }
+}

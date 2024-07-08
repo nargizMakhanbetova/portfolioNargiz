@@ -1,0 +1,33 @@
+@keyframes rotate-sticker {
+    0%{
+        transform: rotate(0deg);
+    }10%{
+        transform: rotate(5deg);
+    }40%{
+        transform: rotate(-30deg);
+    }50%{
+        transform: rotate(-35deg);
+    }80%{
+        transform: rotate(0deg);
+    }90%{
+        transform: rotate(-5deg);
+    }100% {
+        transform: rotate(0deg);
+    }
+  }
+
+
+@keyframes start {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    };
+    50%{
+        opacity: 0.5;
+        transform: translateY(5px)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}

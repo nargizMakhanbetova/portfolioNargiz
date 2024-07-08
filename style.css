@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+.main{
+    background-image: url('./img/blurry_background\ 1.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.sa{
+    overflow: auto;
+}
+.navbar{
+    font-family: var(--accent-font);
+    font-size: 2rem;
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+    padding-top: 2rem;
+    animation: start 1s ease;
+}
+
+.burder{
+    display: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--main-color-black);
+    position: relative;
+}
+
+.dashed::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--main-color-black);
+}
+
+.c_wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-inline: 130px;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.h1_wrap{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: var(--main-font);
+    font-size: 5rem;
+    font-weight: 400;
+    animation: start 2s ease ;
+}
+.sticker{
+    animation: start 2s ease ;
+}
+h2, h3{
+    font-family: var(--accent-font);
+    font-weight: 200;
+    margin-top: 16px;
+    animation: start 2s ease ;
+}
+
+h2{
+    font-size: 3.25rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+.sticker:hover{
+    animation: rotate-sticker 0.5s ease-in;
+}
+
+.main_photo{
+   margin-left: 12px;
+   animation: start 2.5s ease ;
+}
+
+.about_wrap{
+    max-width: 1036px;
+    margin-inline: auto;
+}
+
+.title_about{
+    font-family: var(--main-font);
+    font-size: 3.25rem;
+    font-weight: 400;
+    margin-top: 40px;
+    animation: start 2s ease ;
+}
+
+.p_about{
+    font-family: var(--main-font);
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-top: 32px;
+    animation: start 2s ease ;
+}
+
+.portfolio_button{
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    color: var(--main-color-white);
+    background-color: var(--main-color-black);
+    padding: 8px 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    margin-bottom: 32px;
+}
+
+.portfolio_button:hover{
+    background-color: #252525;
+}

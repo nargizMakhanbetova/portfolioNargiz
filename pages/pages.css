@@ -1,0 +1,34 @@
+.main{}
+.about_wrap{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 32px;
+}
+.back{
+    width: 44px;
+    height: 44px;
+    animation: start 2s ease ;
+}
+
+aside{
+    margin-right: -66px;
+}
+
+aside img{
+    height: 649px;
+    width: 544px;
+    animation: start 2s ease ;
+}
+.title_about{
+    margin-top: 16px;
+}
+
+.content{
+    font-family: var(--main-font);
+    font-size: 24px;
+    padding-top: 32px;
+    font-weight: 400;
+    animation: start 2s ease ;
+}
